@@ -1,7 +1,7 @@
 # Lagrangian-Decomposition-for-Battery-Charging
 
 ## Overview
-This repository supports the scientific research presented in the manuscript titled "Accelerating Lagrangian Decomposition with Time-Block Reformulations for Large-Scale Charging of Swappable Batteries," authored by Sunney Fotedar, Jiaming Wi, Balázs Kulcsár, and Rebecka Jörnsten.
+This repository supports the scientific research presented in the manuscript titled "Accelerating Lagrangian Decomposition with Time-Block Reformulations for Large-Scale Charging of Swappable Batteries," authored by Sunney Fotedar, Jiaming Wu, Balázs Kulcsár, and Rebecka Jörnsten.
 
 ## Data Files
 Data for this project is stored in JSON format. The files are named according to the template 'input_data_file_B_N_gamma', where `B` is the number of batteries, `N` is the number of ports, and `gamma` is a specific parameter related to the charging process.
