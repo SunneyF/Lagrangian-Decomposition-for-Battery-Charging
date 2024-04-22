@@ -1,4 +1,4 @@
-# Lagrangian-Decomposition-for-Battery-Charging
+# Accelerating Lagrangian decomposition using time-block reformulation
 
 ## Overview
 This repository supports the scientific research presented in the manuscript titled "Accelerating Lagrangian Decomposition with Time-Block Reformulations for Large-Scale Charging of Swappable Batteries," authored by Sunney Fotedar, Jiaming Wu, Balázs Kulcsár, and Rebecka Jörnsten.
