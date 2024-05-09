@@ -3,6 +3,24 @@
 ## Overview
 This repository supports the scientific research presented in the manuscript titled "Accelerating Lagrangian Decomposition with Time-Block Reformulations for Large-Scale Charging of Swappable Batteries," authored by Sunney Fotedar, Jiaming Wu, Balázs Kulcsár, and Rebecka Jörnsten.
 
+## Required Files
+
+To ensure that the scripts in this repository function correctly, please make sure that the following Python files are present in your working directory:
+
+- `helper_function.py`: Contains utility functions used across multiple scripts. Import this file using `import helper_function as hf`.
+- `Solve_YS_New_test.py`: Contains the `solve_ys` function which is crucial for solving part of the model.
+- `Solve_YS_Original.py`: Includes the `solveYS_original` function, a variant of the model solving function.
+- `Full_Model_fix_y.py`: This file contains several important models and functions:
+  - `Full_Model_x_y`
+  - `Full_Model_BinP`
+  - `model_Px`
+  - `MinCostFlowNetwork_ORTools_News`
+  - `create_reference_matrix_and_count_switches`
+
+Make sure all the above files are downloaded and present in the directory from which you run the scripts. This ensures that all imports and module functions work seamlessly.
+
+### Main Script
+
 ## Data Files
 Data for this project is stored in JSON format. The files are named according to the template 'input_data_file_B_N_gamma', where `B` is the number of batteries, `N` is the number of ports, and `gamma` is a specific parameter related to the charging process.
 
@@ -23,23 +41,7 @@ The JSON data files are integral for running the simulations and computational m
 ## Additional Information
 For further details on the methodology, simulation results, and theoretical background, please refer to the full text of the manuscript. This README provides only a brief overview of the data structure and its usage within the broader context of the research project.
 
-## Required Files
 
-To ensure that the scripts in this repository function correctly, please make sure that the following Python files are present in your working directory:
-
-- `helper_function.py`: Contains utility functions used across multiple scripts. Import this file using `import helper_function as hf`.
-- `Solve_YS_New_test.py`: Contains the `solve_ys` function which is crucial for solving part of the model.
-- `Solve_YS_Original.py`: Includes the `solveYS_original` function, a variant of the model solving function.
-- `Full_Model_fix_y.py`: This file contains several important models and functions:
-  - `Full_Model_x_y`
-  - `Full_Model_BinP`
-  - `model_Px`
-  - `MinCostFlowNetwork_ORTools_News`
-  - `create_reference_matrix_and_count_switches`
-
-Make sure all the above files are downloaded and present in the directory from which you run the scripts. This ensures that all imports and module functions work seamlessly.
-
-### Main Script
 
 The main script that orchestrates the model's execution is `Final_ergodic.py`. To run this script, ensure that you have all the necessary files mentioned above in your working directory. You can execute the script from your command line using the following command:
 
