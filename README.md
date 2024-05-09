@@ -22,7 +22,7 @@ Make sure all the above files are downloaded and present in the directory from w
 ### Main Script
 
 ```bash
-python Final_ergodic.py
+python Final_Ergodic_v1.2.py
 ```
 
 ## Data Files
