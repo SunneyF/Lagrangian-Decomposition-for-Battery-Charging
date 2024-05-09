@@ -23,6 +23,7 @@ Make sure all the above files are downloaded and present in the directory from w
 
 ```bash
 python Final_ergodic.py
+```
 
 ## Data Files
 Data for this project is stored in JSON format. The files are named according to the template 'input_data_file_B_N_gamma', where `B` is the number of batteries, `N` is the number of ports, and `gamma` is a specific parameter related to the charging process.
