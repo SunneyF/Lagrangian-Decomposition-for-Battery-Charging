@@ -21,6 +21,9 @@ Make sure all the above files are downloaded and present in the directory from w
 
 ### Main Script
 
+```bash
+python Final_ergodic.py
+
 ## Data Files
 Data for this project is stored in JSON format. The files are named according to the template 'input_data_file_B_N_gamma', where `B` is the number of batteries, `N` is the number of ports, and `gamma` is a specific parameter related to the charging process.
 
@@ -45,6 +48,4 @@ For further details on the methodology, simulation results, and theoretical back
 
 The main script that orchestrates the model's execution is `Final_ergodic.py`. To run this script, ensure that you have all the necessary files mentioned above in your working directory. You can execute the script from your command line using the following command:
 
-```bash
-python Final_ergodic.py
 
